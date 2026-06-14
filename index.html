@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Simonovikj | Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">Ivan.dev</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" class="btn-primary nav-btn">Hire Me</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="container">
+        <p class="status-badge">🟢 Available for Internships & Freelance</p>
+        <h1 class="hero-title">I build scalable web solutions.</h1>
+        <p class="hero-subtitle">
+          I'm Ivan, a Solo-preneur and Full-Stack Developer. I specialize in
+          building end-to-end applications with the MERN stack, while actively
+          leveraging Python for Artificial Intelligence and academic projects. I
+          am driven to solve real problems, whether for freelance clients or as
+          part of an engineering team.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a
+            href="https://github.com/ivansimonovikj"
+            target="_blank"
+            class="btn-secondary"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-content">
+              <span class="project-tag">Latest & Best</span>
+              <h3>EduPractic</h3>
+              <p>
+                A comprehensive, full-stack internship management platform
+                designed to digitize the VET sector. Features include Role-Based
+                Access Control (RBAC), bilingual architecture (MK/EN),
+                mobile-first daily logbooks, and 1-click automated bulk PDF
+                generation for archiving.
+              </p>
+              <div class="tech-stack">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>Railway</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://edupractic-production.up.railway.app/"
+                  target="_blank"
+                  class="btn-primary"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/ivansimonovikj"
+                  target="_blank"
+                  class="btn-secondary"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Finance Tracker</h3>
+              <p>
+                A personal expense tracker application that allows users to
+                categorize spending, handle secure inputs, and visualize
+                financial data through interactive charts.
+              </p>
+              <div class="tech-stack">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>Chart.js</span>
+                <span>REST API</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Food Order Platform</h3>
+              <p>
+                A web application built to handle online food ordering.
+                Developed to deeply understand MVC architecture, relational
+                databases, and server-side rendering with Python.
+              </p>
+              <div class="tech-stack">
+                <span>Python</span>
+                <span>Django</span>
+                <span>Bootstrap</span>
+                <span>SQL</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me & What's Next</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm currently a Software Engineering student at the Faculty of
+              Computer Science and Engineering (FINKI). While I love building
+              web apps, my academic background has given me a deep understanding
+              of core computer science fundamentals—having excelled in Data
+              Structures & Algorithms (DSA), Object-Oriented Programming (OOP),
+              and Operating Systems.
+            </p>
+            <p>
+              My core expertise lies in transforming ideas into functional
+              products using the MERN stack and Python. However, my mindset is
+              rooted in continuous learning. I am actively expanding my horizons
+              into Artificial Intelligence and agent-based systems, aiming to
+              bridge the gap between traditional web development and smart,
+              AI-driven software.
+            </p>
+            <p>
+              Whether you are a company looking for a dedicated intern with
+              strong CS fundamentals, or a founder needing a freelance developer
+              to build your MVP from scratch, I am ready to jump in and deliver
+              value.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>
+          Have a freelance project in mind, or looking to hire an intern? My
+          inbox is always open.
+        </p>
+
+        <div class="contact-actions">
+          <a href="mailto:ivansimonovik@gmail.com" class="btn-primary"
+            >Email Me</a
+          >
+          <a
+            href="https://www.linkedin.com/in/ivan-simonovik-820658416"
+            target="_blank"
+            class="btn-secondary"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/ivansimonovikj"
+            target="_blank"
+            class="btn-secondary"
+            >GitHub</a
+          >
+        </div>
+
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Ivan Simonovikj</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

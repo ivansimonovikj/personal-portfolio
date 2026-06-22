@@ -5,7 +5,7 @@
 This repository contains the source code for my personal website and developer portfolio. It serves as a central hub for my projects, academic background, and contact information.
 
 ## 🚀 About Me
-I am a Full-Stack Developer and Solo-preneur based in North Macedonia. I specialize in building end-to-end web applications using the MERN stack, while also leveraging Python for data-driven and AI projects. I am currently open to freelance projects and software engineering internships.
+"I am a Full-Stack Developer and Solo-preneur based in North Macedonia. I specialize in building robust web applications and backend systems using Node.js, Express, and MongoDB. I am actively expanding my expertise into Machine Learning, leveraging Python to build predictive models and data-driven AI features. I am currently open to freelance projects and software engineering internships."
 
 ## 🛠️ Built With
 To ensure maximum performance, accessibility, and zero-dependency overhead, this portfolio was built entirely from scratch without heavy frontend frameworks:
